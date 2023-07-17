@@ -42,7 +42,15 @@ npm ci
 ```
 
 ## Running the Bot
-After installing the dependencies, you can start the bot using the following command:
+After installing the dependencies, you have to create an .env file that includes the BOT_TOKEN generated from Telegram Bot Father.
+
+The .env file should look like this:
+
+```
+BOT_TOKEN=<YOUR_BOT_TOKEN>
+```
+
+With .env file set up, you can now start the bot using the following command:
 
 ```bash
 npx nodemon src/app.js
